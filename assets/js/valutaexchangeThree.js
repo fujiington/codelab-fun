@@ -43,7 +43,7 @@ function makeExchange(myEuroRate, myDollarRate, myDanishAmount) {
 
 // sub funktion der udfører en opgave og returnerer et resultat.  stadig controller code i MVC
 function calculateExchange(myDanishAmount, exchangeRate) {
-    return (myDanishAmount / exchangeRate).toFixed(2);
+    return myDanishAmount * exchangeRate;
 }
 
 

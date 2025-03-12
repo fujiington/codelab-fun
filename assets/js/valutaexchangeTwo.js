@@ -54,5 +54,5 @@ function makeExchange(myEuroRate, myDollarRate, myDanishAmount) {
     console.log('Beløb i dollar: ' + dollarResult);
 
 function calculateExchange(myDanishAmount, exchangeRate) {
-    return (myDanishAmount / exchangeRate).toFixed(2);
+    return myDanishAmount * exchangeRate;
 }
